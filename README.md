@@ -14,9 +14,8 @@ for (i= 1; i<20; i+=2){
 console.log(basa);
 
 let dama = [];
-for (i= 1; i<9; i++){              
-  (i % 2 === 0) ? (i): (-i)     
-  dama.push (i);                  
+for (i= 1; i<11; i++){              
+  dama.push(i % 2 === 0 ? -i: i);
 }
 console.log(dama);
 ```
