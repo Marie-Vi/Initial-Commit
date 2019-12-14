@@ -21,6 +21,9 @@ console.log(dama);
 
 let numbers = [2, 13, 7, 6, 41, -7, 12, -4, 89, 5];
 for (i = 0; i < 10; i++) {
-  if (numbers[i] % 2 === 0) console.log(numbers[i]);
-}
+  if (numbers[i] % 2 === 0) console.log(numbers[i])
+  
+for (i = 0; i > -10; i++) {
+  if (numbers[i] < 0) console.log(numbers[i])
+    }
 ```
