@@ -26,4 +26,12 @@ for (i = 0; i < 10; i++) {
 for (i = 0; i > -10; i++) {
   if (numbers[i] < 0) console.log(numbers[i])
     }
+  
+  let nn = [];
+  
+  for (i = 0; i < 10; i++){
+    if (numbers[i] > 10) nn.push(numbers[i])
+  } 
+  console.log(nn);
+  console.log(nn.length);
 ```
