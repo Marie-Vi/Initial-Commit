@@ -33,5 +33,12 @@ for (i = 0; i > -10; i++) {
     if (numbers[i] > 10) nn.push(numbers[i])
   } 
   console.log(nn);
-  console.log(nn.length);
+  console.log(nn.length);}
+
+let numbers = [2, 13, 7, 6, 41, -7, 12, -4, 89, 5];
+
+
+for (i = 0; i > -10; i++) {
+  if (numbers[i] < 0) console.log(numbers[i])
+    }
 ```
