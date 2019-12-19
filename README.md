@@ -46,5 +46,19 @@ for (i = 0; i < numbers.length; i++) {
   if (numbers[i] < 0) numbers[i] = - numbers[i]
 }
 
-console.log(numbers);
+console.log(numbers)
+{
+    let arr = [];
+    
+    for (i = 20; i<= 30; i++) {
+      arr.push(i)
+    }
+    console.log(arr);
+    
+    for (i = 5; i >= 1; i--) {
+      arr.unshift(i)
+    }
+    console.log(arr);
+}
+;
 ```
