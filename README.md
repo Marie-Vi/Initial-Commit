@@ -61,4 +61,10 @@ console.log(numbers)
     console.log(arr);
 }
 ;
+
+for (i = 30; i < 25; i--) {
+  arr.pop(i)
+  console.log(i);
+}
+console.log(arr);
 ```
