@@ -67,4 +67,12 @@ for (i = 30; i < 25; i--) {
   console.log(i);
 }
 console.log(arr);
+
+let str = '';
+i = 0;
+while (i < 27){
+  str += 'Z'
+  i++;
+}
+console.log(str);
 ```
