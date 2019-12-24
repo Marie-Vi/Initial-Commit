@@ -75,4 +75,10 @@ while (i < 27){
   i++;
 }
 console.log(str);
+
+i = 0;
+while (i < 10 ) {
+  console.log('Marie');
+  i++;
+}
 ```
