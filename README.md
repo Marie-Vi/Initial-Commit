@@ -81,4 +81,10 @@ while (i < 10 ) {
   console.log('Marie');
   i++;
 }
+
+i = -7;
+while (i < 8) {
+  console.log(i);
+  i++;
+}
 ```
