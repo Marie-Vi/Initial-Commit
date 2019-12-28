@@ -83,4 +83,10 @@ while (i < 8) {
   console.log(i);
   i++;
 }
+
+
+for (i = 10; i >= 0; i--) {
+  if (i === 0) i = 'start!';
+  console.log(i);
+}
 ```
