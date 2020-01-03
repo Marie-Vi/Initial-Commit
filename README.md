@@ -94,4 +94,10 @@ for (let i = 10; i >= 0; i--) {
   if (i === 0) i = 'start!';
   console.log(i);
 }
+
+function numbersEvenOdd(a){
+  if(a % 2 == 0) return ('Even')
+  else return ('Odd')
+    }
+console.log(numbersEvenOdd(a));
 ```
