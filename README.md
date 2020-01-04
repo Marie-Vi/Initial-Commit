@@ -100,4 +100,15 @@ function numbersEvenOdd(a){
   else return ('Odd')
     }
 console.log(numbersEvenOdd(a));
+
+let arr = [];
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function reverse (arr2) {
+  for(i = arr2.length-1; i >= 0 ; i--) {
+    arr.push(arr2[i]);
+  }
+  return arr;
+}
+
+console.log( reverse (arr2));
 ```
