@@ -111,4 +111,16 @@ function reverse (arr2) {
 }
 
 console.log( reverse (arr2));
+
+let x = 5;
+let y = 10;
+let arrXX =[];
+let arrX =[0,1,2,3,4,5,6,7,8,9,10];
+function newArray (x,y) {
+    for (i = 0; i < arrX.length; i++) {
+      if(arrX[i] <= y && arrX[i] >= x) arrXX.push(arrX[i]);
+  }
+  return arrXX;
+}
+console.log(newArray (x,y));
 ```
