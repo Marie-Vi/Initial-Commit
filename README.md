@@ -123,4 +123,14 @@ function newArray (x,y) {
   return arrXX;
 }
 console.log(newArray (x,y));
+
+let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let a = 0;
+function sum (arr1) {
+  for(i=0; i < arr1.length; i++) {
+    a = a + arr1[i];
+  }
+  return a;
+}
+console.log(sum (arr1));
 ```
