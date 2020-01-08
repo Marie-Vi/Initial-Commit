@@ -133,4 +133,21 @@ function sum (arr1) {
   return a;
 }
 console.log(sum (arr1));
+
+a = 'Even';
+d = 'PasV';
+
+// function str(a){
+//   for(value of a){
+//     return (value);
+//     break;
+//   }
+// } - this way also can be used, but it is longer
+
+function str(a){
+  return (a[0]);
+}
+
+console.log(str(a));
+console.log(str(d));
 ```
