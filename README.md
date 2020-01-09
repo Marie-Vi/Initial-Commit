@@ -150,4 +150,12 @@ function str(a){
 
 console.log(str(a));
 console.log(str(d));
+
+let c = 25;
+let d = 4;
+
+function mult (c, d){
+  return c * d;
+}
+console.log(mult(c, d));
 ```
