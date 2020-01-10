@@ -158,4 +158,9 @@ function mult (c, d){
   return c * d;
 }
 console.log(mult(c, d));
+
+function absValue(e){
+  return Math.abs(e);
+}
+console.log(absValue(e));
 ```
