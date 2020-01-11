@@ -163,4 +163,14 @@ function absValue(e){
   return Math.abs(e);
 }
 console.log(absValue(e));
+
+{
+    let arr = [21,22,23,24,25,26,27,28,29,30,31,32,33,34,35];
+    let temp = [];
+    
+    for(i = 0; i < arr.length; i++) {
+      temp.push(1.8*arr[i] +32);
+    }
+    console.log(temp);
+}
 ```
