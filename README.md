@@ -172,5 +172,23 @@ console.log(absValue(e));
       temp.push(1.8*arr[i] +32);
     }
     console.log(temp);
+   
+}
+
+{
+    let x = 5;
+    let y = 10;
+    let arrXX =[];
+    function newArrayX (x,y){
+      if (x < y){
+        for (i = x; i <= y; i++)
+          arrXX.push(i);
+      } else if (x > y){
+        for (i = y; i <= x; i++)
+          arrXX.push(i);
+      } else if (x === y) arrXX.push(x);
+      return arrXX;
+    }
+    console.log(newArrayX (x,y));
 }
 ```
