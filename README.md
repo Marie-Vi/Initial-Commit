@@ -191,4 +191,11 @@ console.log(absValue(e));
     }
     console.log(newArrayX (x,y));
 }
+
+i = 0;
+while (i < 15) {
+ i+=2;
+ console.log(i);
+}
+console.log('---------------');
 ```
