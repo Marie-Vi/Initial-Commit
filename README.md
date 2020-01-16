@@ -198,4 +198,17 @@ while (i < 15) {
  console.log(i);
 }
 console.log('---------------');
+
+let arr4 = ['apple', 'orange', 'grape', 'banana', 'mango', 'peach'];
+let arr4X = [];
+
+function countWords (arr) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++){
+    if(arr[i].length === 5) count++;
+  }
+    return count;
+}
+
+console.log(countWords (arr4));
 ```
