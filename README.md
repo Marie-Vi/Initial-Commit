@@ -211,4 +211,17 @@ function countWords (arr) {
 }
 
 console.log(countWords (arr4));
+
+const arr = [1,5,7,3,2,8,0,9];
+let temp;
+for (let i = 0; i < arr.length-1; i++) {
+  for(let j = i+1; j < arr.length; j++){
+    if(arr[i]> arr[j]){
+      temp = arr[i];
+      arr[i]= arr[j];
+      arr[j]= temp;
+    }
+  }
+}
+console.log(arr);
 ```
