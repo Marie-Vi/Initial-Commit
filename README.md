@@ -250,4 +250,9 @@ describe('function sum', () => {
 it('should mult equals 8', () => {
     assert.equal(mult(2, 4), 8)
 })
+
+function greet() {
+let str = 'hello world!';
+return str;
+}
 ```
