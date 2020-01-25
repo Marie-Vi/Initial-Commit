@@ -255,4 +255,20 @@ function greet() {
 let str = 'hello world!';
 return str;
 }
+
+function createPhoneNumber(arr) {
+  let a = '';
+  let c = '';
+  let d = '';
+  for(i = 0; i < 3; i++) {
+    a = a + arr[i];
+  }
+  for(i = 3; i < 6; i++) {
+    c = c + arr[i];
+  }
+  for(i = 6; i < arr.length; i++) {
+    d = d + arr[i];
+  }
+  return `(${a}) ${c}-${d}`
+}
 ```
