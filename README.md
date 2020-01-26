@@ -234,7 +234,7 @@ function mult(a, b){
 module.exports = {sum, mult};
 
 const assert = require('assert');
-const {sum, mult} = require('../index.js');
+const {sum, mult} = require('./index.js');
 
 describe('function sum', () => {
     it('should function sum equals 6', () => {
@@ -271,4 +271,5 @@ function createPhoneNumber(arr) {
   }
   return `(${a}) ${c}-${d}`
 }
+
 ```
