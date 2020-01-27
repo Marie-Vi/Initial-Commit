@@ -311,4 +311,12 @@ function createPhoneNumber(arr) {
       return(h + m + s)
     }
 }
+
+let money = 10;
+let candy = 1.42;
+let chips = 2.4;
+let soda = 1;
+let change;
+change = money - candy - chips - soda;
+console.log(change);
 ```
