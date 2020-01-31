@@ -433,5 +433,18 @@ console.log(change);
     else if(typeof(x) == 'number') return (x * 50 + 6);
     }
 }
+{
+    // Codewars Kata: Discover The Original Price
+    //We need to write some code to return 
+    //the original price of a product, the return type 
+    //must be of type decimal and the number must be rounded to two decimal places.
+    //We will be given the sale price (discounted price), 
+    //and the sale percentage, our job is to figure out the original price.
+    
+    DiscoverOriginalPrice(75, 25) => 100.00M where 75 is the sale price (discounted price), 25 is the sale percentage and 100 is the original price
+    function discoverOriginalPrice(discountedPrice, salePercentage){
+      return Math.round(discountedPrice/(100-salePercentage) * 10000)/100
+    }
+}
 }
 ```
