@@ -458,5 +458,16 @@ console.log(change);
       return sum.toString();
     }
 }
+{
+    //Codewars Kata: Convert a Boolean to a String
+    //This katarepresent in code is the concept of true and false. 
+    //A variable that can either be true or false 
+    //is called a boolean variable. In this example, 
+    //the input to boolean_to_string (represented by the variable b) is a boolean.
+    
+    function booleanToString(b){
+      return b.toString();
+    }
+}
 }
 ```
