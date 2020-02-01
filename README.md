@@ -446,5 +446,17 @@ console.log(change);
       return Math.round(discountedPrice/(100-salePercentage) * 10000)/100
     }
 }
+{
+    //Codewars Kata: Sum The Strings
+    //Create a function that 
+    //takes 2 positive integers in form 
+    //of a string as an input, and outputs 
+    //the sum (also as a string):
+    
+    function sumStr(a,b) {
+      let sum = (a-0) + (b-0);
+      return sum.toString();
+    }
+}
 }
 ```
