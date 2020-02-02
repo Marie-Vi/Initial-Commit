@@ -469,5 +469,14 @@ console.log(change);
       return b.toString();
     }
 }
+{
+    //Codewars Kata: Convert a String to a Number!
+    //We need a function that can transform a string 
+    //into a number. What ways of achieving this do you know?
+    
+    let stringToNumber = function(str){
+      return str-0;
+    }
+}
 }
 ```
