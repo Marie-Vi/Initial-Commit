@@ -520,5 +520,14 @@ console.log(change);
       return 180-(a+b);
     }
 }
+{
+    //Codewars Cata: Sum of angles
+    //Find the total sum of angles in an n sided shape. N will be greater than 2.
+    
+    function angle(n) {
+      let sum = (n-2) *180;
+      return sum;
+    }
+}
 }
 ```
