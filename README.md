@@ -529,5 +529,15 @@ console.log(change);
       return sum;
     }
 }
+{
+    //Codewars Kata: Miles per gallon to kilometers per liter
+    
+    function converter (mpg) {
+      let mile = 1.609344;
+      let gallon = 4.54609188;
+      let km = (mpg * mile)/gallon;
+      return ( km.toFixed(2) )/1;
+    }
+}
 }
 ```
