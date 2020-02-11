@@ -563,5 +563,19 @@ console.log(change);
       }
     }
 }
+{
+    //Codewars Kata: Convert boolean values to strings 'Yes' or 'No'.
+    
+    function boolToWord( bool ){
+      switch(bool) {
+        case true:
+            return "Yes";
+            break;
+        case false:
+            return "No";
+            break;
+        };
+    };
+}
 }
 ```
