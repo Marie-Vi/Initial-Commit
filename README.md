@@ -600,7 +600,13 @@ console.log(change);
    return (Math.round(n * 100))/100
  }
 {
-    
+  //Codewars Kata: Type of sum
+  //Return the type of the sum of the two arguments
+  
+  function typeOfSum(a, b) {
+    return typeof(a + b);
+  }   
 }
+
 }
 ```
